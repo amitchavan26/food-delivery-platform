@@ -1,0 +1,5 @@
+# Local development only. Never use this secret in production.
+app:
+  jwt:
+    secret: dev-only-secret-change-me-dev-only-secret-change-me
+  seed-demo-data: true
